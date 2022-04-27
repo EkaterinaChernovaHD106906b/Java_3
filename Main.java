@@ -11,6 +11,9 @@ public class Main {
         } else {
             bonus = 0;
         }
+        int accountBonus = account + amount + bonus;
         System.out.println("Bonuses: " + bonus);
+        System.out.println("Account " + accountBonus);
+
     }
 }
